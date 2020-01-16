@@ -1,0 +1,20 @@
+  {
+    "name": "Atlas Theater Fixer",
+    "description" : "Base Level Extension",
+    "version": "1.0",
+    "manifest_version": 2,
+    "icons": { "16": "bobbyt16.png",
+               "48": "bobbyt48.png",
+              "128": "bobbyt128.png" },
+    "content_scripts": [
+        {
+          "matches": [
+            "<all_urls>"
+          ],
+          "js": ["bobby.js"]
+        }
+      ],
+    "permissions": [
+        "browsingData"
+    ]
+  }
