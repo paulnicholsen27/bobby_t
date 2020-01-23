@@ -1,12 +1,7 @@
-document.addEventListener("DOMContentLoaded", () => {
-    alert('test')
-    console.log('done')
-})
+
 
 window.onload=function(){
     findAndReplace("Atlas Performing Arts Center", "Atlas Theater")
-
-     console.log("page load!");
 }
 
 function findAndReplace(searchText, replacement, searchNode) {
